@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<script src="text.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.theme.css">
+ </head>
+
+ <body>
+ <h1> APPLICATION FORM </h1>
+ <h2> CHILDS'S INFORMATION </h2>
+ 
+<form id="theForm" action="Beloved school.html" method="post" onSubmit="return validateTextbox();">
+<div id="main">
+
+<div class="row">
+<label for="name">Name:</label>
+<input type="text" id="name" name=""> <br> <br>
+</div>
+
+<div class="row">
+<label for="address">Address:</label>
+<input type="text" id="address" name=""> <br> <br>
+</div>
+
+<div class="row">
+<label for="gender">Gender:</label>
+<input type="text" id="gender" name=""> <br> <br>
+</div>
+
+
+<div class="row">
+<label for="date of birth">Date of Birth:</label>
+ <input type="text" class="pickdate"> <br> <br>
+</div>
+ <br>
+    <h2> PARENTS/GUARDIAN INFORMATION </h2>  
+	
+	<div class="row">
+<label for="name">Name:</label>
+<input type="text" id="name" name=""> <br> <br>
+</div>
+
+	<div class="row">
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name=""> <br> <br>
+</div>
+
+<div class="row">
+<label for="email">Email:</label>
+<input type="email" id="email" name=""> <br> <br>
+</div>
+   </div>
+        
+   
+   <input type="submit" value="submit" id="submit">
+  
+  </form>
+        <h2> Rules and Regulations </h2>
+ <p>1. This set of rules must be strictly followed. </p>
+ <p>2. Ensure that the personal information provided is accurate, up-to-date, complete.</p>
+ <p> 3.Personal information will not be shared with third parties without explicit consent,unless required by law. </p>
+ <p>4. Personal information will be protected using appropriate technical and organisation measures to prevent
+   unatorized access, disclosure, or loss. </p>
+  <p>5.  Personal information wiil be retained only for as long as necessary to fulfil the purpose for 
+  which it was collected. </p>
+  <p>6. There must be a length of 7 words in the Name (surname & fisrt name)  and Address information, if not it will not be submitted.</p>
+  
+  
+  
+  
+  
+  <script src="jquery-3.7.1.js"></script>
+ <script src="jqueryui/jquery-ui.js"></script>
+  <script>     
+
+   $(document).ready(function () {
+   
+   $(".pickdate").datepicker({numberOfMonths: 3});
+	  
+
+ 
+ });
+ </script>
+</body>
+</html>

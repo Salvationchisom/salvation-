@@ -1,0 +1,148 @@
+body {
+	background-color:orange;
+}
+
+
+h1 {
+font-family:helvetical;
+color:blue;
+text-align:center;
+text-decoration:underline;
+
+}
+
+h2 {
+font-family:helvetical;
+color:blue;
+text-align:center;
+}
+
+#sal {
+background-color:red;
+height:25px;
+font-size:25px;
+font-weight:bold;
+font-family:Arial;
+}
+
+#sal ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+
+#sal li {
+	display:inline;
+	padding:15px;
+	vertical-align:middle;
+}
+
+#sal a {
+	text-decoration:none;
+	padding:8px 8px 8px 8px;
+	color:blue;
+	vertical-align:middle;
+}
+
+#sal a:hover {
+	color:red;
+	background-color:blue;
+}
+
+	 #image {
+width:1350px;
+height:400px;
+}
+#home ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+#home li {
+	display:block;
+	padding:15px;
+	vertical-align:middle;
+}
+
+
+#about ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+#about li {
+	display:block;
+	padding:15px;
+	vertical-align:middle;
+}
+
+#addmission ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+#addmission li {
+	display:block;
+	padding:15px;
+	vertical-align:middle;
+}
+
+#contact ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+#contact li {
+	display:block;
+	padding:15px;
+	vertical-align:middle;
+}
+#apply ul {
+padding:0;
+margin:0;
+list-style-type:none;
+text-align:center;
+}  
+#apply li {
+	display:block;
+	padding:15px;
+	vertical-align:middle;
+}
+
+
+#welcome {
+	font-size:20px;
+	font-family:helvetical;
+	background-image:url(cloudsmass.jpg);
+	border:solid 10px blue;
+	padding:20px;
+	margin:10px;
+}
+#welcome1 {
+	font-size:20px;
+	font-family:helvetical;
+	background-image:url(cloudsmass.jpg);
+	border:solid 10px blue;
+	padding:20px;
+	margin:10px;
+}
+
+.underline {
+	text-decoration:underline;
+}
+
+#school  {
+text-align:center;
+
+color:white;
+}
+
+#schoollogo  {
+text-align:center;
+
+}
